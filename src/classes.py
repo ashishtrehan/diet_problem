@@ -18,4 +18,10 @@ class Values(object):
         self.polyunsat = object.get("polyunsat (g)")
     
 
-    
+class URL:
+    def __init__(self,year,month,week,url,ingredients):
+        self.year = year
+        self.month = month
+        self.week = week
+        self.url = url
+        self.ingredients = ingredients
